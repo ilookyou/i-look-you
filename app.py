@@ -8,9 +8,8 @@ from linebot.exceptions import (
 )
 from linebot.models import *
 
-# -----------------------------------------------------------------------------------------------
 app = Flask(__name__)
-# -----------------------------------------------------------------------------------------------
+
 line_bot_api = LineBotApi(
     '7pLD26+Bmw1psdh4pMk29ZE2C0k0PNokrTFV4rH5NGxRFxDpRZmoSiztwB4zHQblUOfnfFRnhPIZfay5QXOh7e4IWJK7wqO+0/B8SUfL+2PcGe8SaYxq+jYT/VhY2Uec8g3MTwJajQe5Cw/62tbr0AdB04t89/1O/w1cDnyilFU=')
 handler = WebhookHandler('d881df8fed2ae70edd4e020d45f20bb5')
